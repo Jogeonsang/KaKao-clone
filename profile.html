@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <title>Profile</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class= "top-header top-header--transparent">
     <div class="header__top">
       <div class="header__cloumn">
         <i class="fas fa-plane"></i>
@@ -25,7 +26,9 @@
     </div>
     <div class="header__bottom">
       <div class="header__cloumn">
+        <a href ="index.html">
         <i class="fa fa-times fa-lg"></i>
+      </a>
       </div>
       <div class="header__cloumn">
 
@@ -36,5 +39,26 @@
       </div>
     </div>
   </header>
+    <main class="profile">
+      <header class="profile__header">
+        <img src="images/kakao_friends.png">
+        <h3 class="profile__header-title">건상</h3>
+      </header>
+      <input type="text" placeholder="rhcn258@gmail.com">
+      <div class="profile__actions">
+        <div class="profile__action">
+          <span class="profile__action-ciricle">
+            <i class="fa fa-comment fa-2x"></i>
+          </span>
+          <span class="profile__action-title">나와의 채팅</span>
+        </div>
+        <div class="profile__action">
+          <span class="profile__action-ciricle">
+            <i class="fa fa-pencil-alt fa-2x"></i>
+          </span>
+          <span class="profile__action-title">프로필 관리</span>
+        </div>
+      </div>
+    </main>
 </body>
 </html>

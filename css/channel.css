@@ -1,0 +1,38 @@
+.channel {
+  background-color: #f2f2f2;
+}
+
+.channel__header {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  margin-bottom: 5px;
+  height: 100px;
+}
+
+.channel__header .channel__header-cloumn {
+  width: 100%;
+}
+
+.channel__header .channel__header-title {
+  font-size: 17px;
+  margin-top: 9px;
+  justify-content: flex-start;
+}
+
+.channel__header .channel__header-subtitle {
+  font-size: 14px;
+  color: #b4b4b4;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.channel__header .channel__header-cloumn img{
+  height: 60px;
+  float: right;
+}

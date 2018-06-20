@@ -6,35 +6,67 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <title>Chat</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class= "top-header">
     <div class="header__top">
-      <div class="header__cloumn">
+      <div class="header__column">
         <i class="fas fa-plane"></i>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <span class="header_time">11:24</span>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <i class="fas fa-moon"></i>
         <i class="fab fa-bluetooth-b"></i>
         <span class="header_bettery">111% <i class="fas fa-battery-full"></i> </span>
       </div>
     </div>
     <div class="header__bottom">
-      <div class="header__cloumn">
-        <i class="fa fa-chevron-left fa-lg"></i>
+      <div class="header__column">
+        <a href="chats.html">
+          <i class="fa fa-chevron-left fa-lg"></i>
+        </a>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <span class="header__text">유정</span>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <i class="fa fa-search"></i>
         <i class="fa fa-bars"></i>
       </div>
     </div>
   </header>
+  <main class="chat">
+    <div class="date-divider">
+      <span class="date-divider__text">화요일, 2018년 6월 19일</span>
+        <div class="chat__message chat__message-from-me">
+          <span class="chat__message-time">17:55</span>
+          <span class="chat__message-body">유정아 밥 먹었어?</span>
+        </div>
+    </div>
+    <div class="date-divider">
+        <div class="chat__message chat__message-to-me">
+          <img src="images/profile_photo_1.jpg" class="chat__message-avaatar">
+          <div class="chat__message-center">
+            <h3 class="chat__message-username">유정</h3>
+          </div>
+          <span class="chat__message-body">응 파스타 먹었어!! 건상아 넌 뭐하고있었어?</span>
+          <span class="chat__message-time">17:57</span>
+        </div>
+    </div>
+  </main>
+  <div class="tpye-message">
+    <i class="fa fa-plus fa-2x"></i>
+    <div class="type-message__input">
+      <input type="text">
+      <i class="fa fa-smile-o"></i>
+      <span class="record-message">
+        <i class="fa fa-microphone"></i>
+      </span>
+    </div>
+  </div>
 </body>
 </html>
