@@ -2,37 +2,93 @@
   background-color: #f2f2f2;
 }
 
-.channel__header {
+.channel .channel__header {
   background-color: white;
   padding: 15px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #ebebeb;
   border-top: 1px solid #ebebeb;
   margin-bottom: 5px;
-  height: 100px;
 }
 
-.channel__header .channel__header-cloumn {
-  width: 100%;
+.channel__header img {
+  height: 60px;
 }
 
 .channel__header .channel__header-title {
   font-size: 17px;
   margin-top: 9px;
-  justify-content: flex-start;
+  margin-bottom: 5px;
 }
 
 .channel__header .channel__header-subtitle {
   font-size: 14px;
   color: #b4b4b4;
-  margin-top: 5px;
-  display: flex;
-  justify-content: flex-start;
-
 }
 
-.channel__header .channel__header-cloumn img{
-  height: 60px;
-  float: right;
+.channel .channel__options{
+  background-color: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.channel__options .channel__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  padding-top: 20px;
+  color: #523737;
+}
+
+.channel__option .channel__option-title{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.channel .channel__AD {
+background-color: white;
+margin-bottom: 7px;
+}
+
+.channel .channel__AD-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.channel .channel__AD-top-title{
+  font-weight: 600;
+}
+
+.channel .channel__AD-top-subtitle {
+  font-size : 13px;
+  color: #b4b4b4;
+}
+
+.channel .channel__AD-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.channel__AD-img img {
+  height: 190px;
+  border : 0.5px solid #b4b4b4;
+}
+
+.channel .channel__Ad-bottom {
+  padding : 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel__AD-bottom-subtitle {
+  color : orange;
+  border : 1px solid orange;
+  padding : 3px 7px;
+  font-size: 12px;
 }
