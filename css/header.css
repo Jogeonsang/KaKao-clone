@@ -5,6 +5,11 @@
   position: fixed;
   width: 100%;
   top:0;
+  z-index: 2;
+}
+
+.header__bottom a{
+  color: white;
 }
 
 .top-header .header__top,
